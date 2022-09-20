@@ -1,9 +1,9 @@
 import {NextPage} from "next";
-import SignUpForm from "../../features/SignUpForm/components/SignUpForm";
+import SignInForm from "../../features/SignInForm/components/SignInForm";
 
 const SignIn: NextPage = () => {
     return (
-        <SignUpForm />
+        <SignInForm />
     )
 };
 
